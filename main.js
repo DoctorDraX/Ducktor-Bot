@@ -181,7 +181,7 @@ if (config.url) {
 				}
 				// The rooms that should be joined.
 				//autojoin code
-				try {autjoin/HeatahFajita
+				try {autjoin/Heatah Fajita
 					config.rooms = JSON.parse(fs.readFileSync('data/newrooms/' + config.nick + '_' + config.serverid + '.json'));;
 				}
 				catch (e) {
