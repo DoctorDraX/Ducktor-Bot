@@ -1218,7 +1218,7 @@ exports.battleParser = {
                     Parse.settings[config.serverid][toId(config.nick)].tournaments = {};
                 }
                 if (!Parse.settings[config.serverid][toId(config.nick)].tournaments[room]) return false;
-                if (!TEAMS[tier] && ['battlefactory', 'randombattle', 'random doubles', 'randomtriplesbattle', 'seasonalspoopyparty', 'gen1random battle', 'doubleshackmonscup', 'triples hackmons cup', 'gen 2random battle', 'gen1challengecup', 'challengecup1v1', 'monotyperandombattle', 'hackmonscup'].indexOf(tier) === -1) return false;
+                if (!TEAMS[tier] && ['battlefactory', 'randombattle', 'seasonalspoopyparty', '[gen1]randombattle', '[gen2]randombattle', '[gen1]challengecup', 'challengecup1v1', 'monotyperandombattle', 'hackmonscup'].indexOf(tier) === -1) return false;
                 Tours[room] = info[1];
                 send((room === 'lobby' ? '' : room) + '|/tour join');
                 break;
