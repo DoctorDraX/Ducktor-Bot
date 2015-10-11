@@ -1197,7 +1197,7 @@ exports.battleParser = {
     },
     accept: function(user, tier) {
         if (!user || !tier) return;
-        if ((!TEAMS[tier] && ['battlefactory', 'randombattle', 'random doubles', 'randomtriplesbattle', 'seasonalspoopyparty', 'gen1random battle', 'doubleshackmonscup', 'triples hackmons cup', 'gen 2random battle', 'gen1challengecup', 'challengecup1v1', 'monotyperandombattle', 'hackmonscup'].indexOf(tier) === -1) || Object.keys(Battles).length >= MAXBATTLES || Bot.isBanned(user)) {
+        if ((!TEAMS[tier] && ['battlefactory', 'randombattle', 'seasonalspoopyparty', '[gen1]randombattle', '[gen2]randombattle', '[gen1]challengecup', 'challengecup1v1', 'monotyperandombattle', 'hackmonscup'].indexOf(tier) === -1) || Object.keys(Battles).length >= MAXBATTLES || Bot.isBanned(user)) {
             return send('|/reject ' + user);
         }
         if (TEAMS[tier]) {
