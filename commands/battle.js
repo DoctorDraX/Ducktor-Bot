@@ -61,7 +61,7 @@ exports.commands = {
         var parts = arg.split(',');
         var tier = toId(parts[0]);
         //DONT ALLOW ANYTHING GOES BC OF NO SPECIES CLAUSE;
-        var allowedTiers = ['ubers', 'oumomega', 'ou', 'uu', 'ru', 'nu', 'pu', 'monotype', 'lc', 'oumomega', 'battlespotsingles', 'cap', '1v1', 'lcuu'];
+        var allowedTiers = ['ou', 'ounomega', 'ubers', 'uu', 'ru', 'nu', 'lc', 'anythinggoes', 'battlespotsingles', 'battlespotspecial12', 'customgame', 'higheststatmeta', 'noguardgalaxy', 'cap', 'balancedhackmons', '1v1', 'monotype', 'tiershift', 'pu', 'inversebattle', 'almostanyability', 'stabmons', 'lcuu', 'averagemons', 'hiddentype', 'outheorymon', 'gennextou', '[gen5]ou', '[gen5]ubers', '[gen5]uu', '[gen5]ru', '[gen5]nu', '[gen5]lc', '[gen5]gbusingles', '[gen5]customgame', '[gen4]ou', '[gen4]ubers', '[gen4]uu', '[gen4]lc', '[gen4]customgame', '[gen3]ou', '[gen3]ubers', '[gen3]customgame', '[gen2]ou', '[gen2]ubers', '[gen2]customgame', '[gen1]ou', '[gen1]ubers', '[gen1]outradeback', '[gen1]customgame'];
         if (allowedTiers.indexOf(tier) == -1) {
             return Bot.say(by, room, 'Sorry, I don\'t accept these teams becaues I cannot play these formats!')
         }
