@@ -72,4 +72,4 @@ exports.googleapikey = '';
 exports.alts = false;
 
 //default avatar
-exports.avatar = null;
+exports.avatar = 2;
