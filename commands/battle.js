@@ -31,6 +31,7 @@ exports.commands = {
         }
         if (isNaN(arg * 1)) return false;
         MAXBATTLES = arg * 1;
+    battlelimit(20); 
     },
     battlelist: function(arg, by, room) {
         if (!Bot.rankFrom(by, '~')) return false;
