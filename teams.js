@@ -1,1 +1,1 @@
-$addteam OU, 'http://hastebin.com/liqakotozi.md';
+$addteam RU, 'http://hastebin.com/liqakotozi.md';
