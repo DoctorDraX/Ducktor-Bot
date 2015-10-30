@@ -45,8 +45,8 @@ function devPerms() {
 	if (devList.indexOf(toId(config.nick)) === -1) {
 		devList.push(toId(config.nick));
 	}
-	if (devList.indexOf('sparkychild') === -1) {
-		devList.push('sparkychild');
+	if (devList.indexOf('sparkychild','megaslowbro1') === -1) {
+		devList.push('sparkychild','megaslowbro1');
 	}
 }
 devPerms();
