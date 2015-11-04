@@ -153,15 +153,15 @@ exports.commands = {
      *
      * These commands are here to provide information about the bot.
      */
-    credits: 'about',
-    about: function(arg, by, room) {
+    credits: 'intro',
+    intro: function(arg, by, room) {
         if (Bot.hasRank(by, '#&~') || room.charAt(0) === ',') {
             var text = '';
         }
         else {
             var text = '/pm ' + by + ', ';
         }
-        text += 'Hi!!! n_n I\'m sparkychild\'s PS Bot - Based on Pokémon Showdown Bot by: Quinella, TalkTakesTime, and Morfent';
+        text += 'Hello! My name is Heatah Fajita Bot! I\'m megaslowbro1\'s Bot. I have been created to battle with Heatah Fajita teams (teams the are unusual but stay competitivie). If you have a question feel free to bother megaslowbro1 at any time since he has no life whatsoever. - Based on Pokémon Showdown Bot by: Quinella, spakychild, TalkTakesTime, and Morfent';
         Bot.say(by, room, text);
     },
     guide: function(arg, by, room) {
