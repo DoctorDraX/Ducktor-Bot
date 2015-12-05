@@ -2,8 +2,8 @@
 exports.url = 'http://battletower.psim.us';
 
 // The nick and password to log in with
-var nick = exports.nick = 'Heatah Fajita Bot'
-exports.pass = 'flameisfat';
+var nick = exports.nick = 'Ducktor Bot'
+exports.pass = 'tjforubers';
 exports.override = {
 	server: 'sim.smogon.com',
 	port: 8000,
