@@ -1,5 +1,5 @@
 //place the URL of the showdown server you are aiming to connect to
-exports.url = 'http://battletower.psim.us';
+exports.url = 'http://play.pokemonshowdown.com';
 
 // The nick and password to log in with
 var nick = exports.nick = 'Ducktor Bot'
@@ -22,7 +22,7 @@ exports.commandcharacter = ['$'];
 
 // The default rank is the minimum rank that can use a command in a room when
 // no rank is specified in settings.json
-exports.defaultrank = '@';
+exports.defaultrank = '#';
 
 // Whether this file should be watched for changes or not.
 // If you change this option, the server has to be restarted in order for it to
