@@ -18,7 +18,7 @@ exports.privaterooms = [];
 // Showdown itself.
 // Using only alphanumeric characters and spaces is not allowed.
 // Add more command characters 
-exports.commandcharacter = ['$'];
+exports.commandcharacter = ['='];
 
 // The default rank is the minimum rank that can use a command in a room when
 // no rank is specified in settings.json
